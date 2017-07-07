@@ -1,9 +1,7 @@
-h1Event.addEventListener( 'click', function(){
-    for (var i = 0; i < 50; i++){
+var newParagraph = document.getElementById( 'h1Event');
 
-    }
-
-    var newParagraph = document.getElementById( 'h1Event');
-    newParagraph.innerHTML = 'this is click number ' + i;
-
+newParagraph.addEventListener( 'click', function(){
+    var newElement = document.createElement( 'paragraph' );
+    newParagraph.innerHTML = "<p>This is click number 1</p>";
+    document.getElementsByClassName( 'container' ) [0].appendChild( newElement);
 });
