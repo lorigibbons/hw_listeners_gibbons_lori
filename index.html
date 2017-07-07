@@ -12,19 +12,17 @@
     <main>
           <form id="contactForm" name="contactFormName" method="post" action="form.php">
             <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" autocomplete="on" placeholder="First Name"></input>
+            <input type="text" id="firstName" autocomplete="on"></input>
             <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName"></input>
+            <input type="text" id="lastName" autocomplete="on"></input>
             <label for="email">Email:</label>
-            <input type="text" id="email"></input>
+            <input type="text" id="email" autocomplete="on"></input>
             <label for="message">Message:</label>
-            <input type="textareav" id="message"></input>
-
+            <input type="textarea" id="message" autocomplete="on"></input>
+            <input type="reset" name="reset" id="reset" value="Reset" />
+            <input type="submit" name="submit" id="submit" value="Submit" />
           </form>
     </main>
-
-
-
     <script src="js/main.js"></script>
 </body>
 </html>
