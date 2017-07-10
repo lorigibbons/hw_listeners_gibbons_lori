@@ -7,8 +7,17 @@ html {
 body,h1,h2,h3,h4,h5,h6 {
     font-family: "Karma", sans-serif
 }
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+p {
+    font-size: 1rem;
+}
 img {
-    width: 80%;
+    width: 90%;
     display: block;
     margin: auto;
 }
@@ -18,4 +27,12 @@ section {
 h2,
 p {
     text-align: center;
+}
+
+/*  MEDIA QUERY - Between   */
+@media (min-width: 800px){
+    section {
+        float: left;
+        width: calc( 100% / 4 );
+    }
 }
