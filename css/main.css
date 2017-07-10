@@ -53,6 +53,9 @@ footer {
     background-color: purple;
     color: white;
 }
+.orange {
+  color: orange;
+}
 /*  MEDIA QUERY - Between   */
 @media (min-width: 800px){
     section {
