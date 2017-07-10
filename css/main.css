@@ -11,7 +11,10 @@ main {
     padding: 2%;
 }
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
+    color: purple;
+    font-weight: bold;
+    text-align: center;
 }
 h2 {
     font-size: 1.5rem;
@@ -34,8 +37,15 @@ img {
     width: 90%;
     display: block;
     margin: auto;
+    max-width: 800px;
 }
 section {
+    padding: 2%;
+}
+article {
+    width: 100%;
+    background-color: rgb(150, 151, 162);
+    color: white;
     padding: 2%;
 }
 footer {
