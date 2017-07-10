@@ -7,5 +7,12 @@ pageHeading.addEventListener('mouseleave', function(){
 	pageHeading.className =  '';
 });
 
-//Second item-
-var addText = document.getElementById( '' );
+//Second item-Add text
+var addText = document.images[0];
+addText.addEventListener('click', function(){
+    var newElement = document.createElement('h3');
+    newElement.innerHTML= '<p>Look at me!  I am the new stuff, new stuff.</p>';
+    document.getElementsByClassName( 'clearfix')[0].appendChild( newElement );
+});
+
+//Third item-
