@@ -4,7 +4,7 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
-body,h1,h2,h3,h4,h5,h6, nav ul li {
+body,h1,h2,h3,h4,h5,h6,nav ul li {
     font-family: "Karma", sans-serif
 }
 main {
@@ -25,6 +25,10 @@ p {
 h2,
 p {
     text-align: center;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
 nav ul li {
     font-size: 1.5rem;

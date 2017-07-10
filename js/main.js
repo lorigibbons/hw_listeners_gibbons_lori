@@ -16,3 +16,9 @@ addText.addEventListener('click', function(){
 });
 
 //Third item-
+var removeText = document.images[1];
+removeText.addEventListener('dblclick', function(){
+    var newElement = document.getElementsByName('h3');
+    newElement.innerHTML = "<p>Changed</>";
+    document.getElementsByName( 'clearfix' )[0].appendChild(newElement);
+});
