@@ -74,6 +74,10 @@ article {
     padding: 2%;
 }
 
+article p {
+    font-size: 2em;
+}
+
 footer {
     width: 100%;
     background-color: purple;
