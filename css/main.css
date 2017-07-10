@@ -9,7 +9,13 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 img {
     width: 80%;
+    display: block;
+    margin: auto;
 }
 section {
-    width: calc( 100% / 4 );
+    padding: 2%;
+}
+h2,
+p {
+    text-align: center;
 }
