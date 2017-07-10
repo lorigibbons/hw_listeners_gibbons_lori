@@ -22,3 +22,9 @@ removeText.addEventListener('dblclick', function(){
     newElement.innerHTML = "<p>Changed</>";
     document.getElementsByName( 'clearfix' )[0].appendChild(newElement);
 });
+
+//Other item- Add random numbers - https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+document.getElementById("numGen").addEventListener("mousemove", theFunction);
+function theFunction(){
+    document.getElementById('numbers').innerHTML = Math.random();
+}
