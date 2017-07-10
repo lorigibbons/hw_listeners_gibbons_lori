@@ -85,6 +85,12 @@ footer {
     color: orange;
 }
 
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
 /* Style all font awesome icons
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons2
 */
@@ -137,10 +143,5 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_butto
     nav ul li {
         display: inline;
         padding: 4rem;
-    }
-    .clearfix::after {
-        content: '';
-        clear: both;
-        display: block;
     }
 }
