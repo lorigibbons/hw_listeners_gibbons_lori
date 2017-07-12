@@ -11,5 +11,5 @@ newParagraph.addEventListener('click', myFunctionName);
 function myFunctionName() {
     var paragraph = document.createElement('p');
     paragraph.innerHTML = 'This is click number: ';
-    newParagraph.appendChild(paragraph);
+    document.body.appendChild(paragraph);
 }
