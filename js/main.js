@@ -1,4 +1,4 @@
-var consoleAction = document.getElementById( 'contactForm' );
+var consoleAction = document.getElementById( 'reset' );
 
 consoleAction.addEventListener('click', function(thisFunction){
     thisFunction.preventDefault();
