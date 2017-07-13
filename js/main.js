@@ -17,12 +17,14 @@ addText.addEventListener('click', function(){
     document.getElementsByClassName( 'clearfix')[0].appendChild( newElement );
 });
 
-//Third item- this doesn't work, I am trying to remove the text that was added in the second item.
+//Third item- Double click on second picture to delete text added in second item
 var removeText = document.images[1];
 removeText.addEventListener('dblclick', function(){
-    var newElement = document.getElementsByName('h3');
-    newElement.innerHTML = "<p></p>";
-    document.getElementsByName( 'clearfix' )[0].appendChild(newElement);
+    var newElement = document.getElementsByTagName('p');
+    var removeListSize = newElement.length;
+    for (var i = 0; i< removeListSize; i++){
+        newElement[0].remove();
+    }
 });
 
 //Other item-
