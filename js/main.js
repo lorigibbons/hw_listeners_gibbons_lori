@@ -1,12 +1,11 @@
 
-
 //Now make something happen when I click the h1
 // newParagraph.addEventListener('click', myFunctionName () {
 //     var newElement = document.createElement( 'paragraph' );
 //     newParagraph.innerHTML = "<p>This is click number 1</p>";
 //     document.getElementsByClassName( 'container' ) [0].appendChild( newElement);
 // });
-var numba === 0;
+var numba = 0;
 
 var newParagraph = document.getElementsByTagName('h1')[0];
 
