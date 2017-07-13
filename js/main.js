@@ -10,17 +10,19 @@ pageHeading.addEventListener('mouseleave', function(){
 
 //Second item-
 //This adds text under the pictures when the first picture is clicked.
+//Resources: https://www.kirupa.com/html5/setting_css_styles_using_javascript.htm
 var addText = document.images[0];
 addText.addEventListener('click', function(){
     var newElement = document.createElement('h3');
     newElement.innerHTML= '<p>Look at me!  I am the new stuff, new stuff.</p>';
     document.getElementsByClassName( 'clearfix')[0].appendChild( newElement );
+    newElement.style.clear = "both";
 });
 
 //Third item- Double click on second picture to delete text added in second item
 var removeText = document.images[1];
 removeText.addEventListener('dblclick', function(){
-    var newElement = document.getElementsByTagName('p');
+    var newElement = document.getElementsByTagName('h3');
     var removeListSize = newElement.length;
     for (var i = 0; i< removeListSize; i++){
         newElement[0].remove();
