@@ -12,4 +12,5 @@ formSubmit.addEventListener('click', function(thisFunction){
     console.log('The email is: ' + formEmail);
     var formMessage = document.getElementById('message').value;
     console.log('The message is: ' + formMessage);
+    console.log('The message is the best form I have ever seen, you are awesome indeed.');
 })
