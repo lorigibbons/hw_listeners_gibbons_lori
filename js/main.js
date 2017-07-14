@@ -1,8 +1,8 @@
 //get the submit button
-var formSubmit = document.getElementById( 'submit' );
+var formSubmit = document.getElementById('submit');
 
 //listen for submission of form while preventing submission of form
-formSubmit.addEventListener('click', function(thisFunction){
+formSubmit.addEventListener('click', function (thisFunction) {
     thisFunction.preventDefault();
     var fName = document.getElementById('firstName').value;
     console.log('The firstName is: ' + fName);
@@ -13,4 +13,4 @@ formSubmit.addEventListener('click', function(thisFunction){
     var formMessage = document.getElementById('message').value;
     console.log('The message is: ' + formMessage);
     console.log('The message is the best form I have ever seen, you are awesome indeed.');
-})
+});
