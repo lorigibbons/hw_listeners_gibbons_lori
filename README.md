@@ -12,3 +12,5 @@ branch.
 I reviewed the deductions for this project and in the syllabus.
 
 # Comments
+
+My v0.1 tag got a little confusing.  I tried to push it to git but was unable to because it said I had to create a branch, although it stems from a branch.
