@@ -2,13 +2,16 @@ body {
     padding: 5%;
     background-color: rgb(242, 252, 255);
 }
+
 main {
     margin: auto;
     width: 50%;
     background-color: rgb(239, 245, 235);
     padding: 2%;
 }
-#contactForm input, #contactForm label {
+
+#contactForm input,
+#contactForm label {
     display: block;
     text-align: center;
     margin: 2% auto;
